@@ -1,0 +1,44 @@
+# Visual Studio 2022
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build
+bin/
+obj/
+Debug/
+Release/
+
+# Rider (caso alguém use)
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Pacotes NuGet
+*.nupkg
+packages/
+# Restore from NuGet
+*.nuget.props
+*.nuget.targets
+.nuget/
+
+# Arquivos temporários
+*.tmp
+*.log
+*.vsix
+*.cache
+
+# Publish
+publish/
+*.publishsettings
+
+# Test Results
+TestResults/
+*.trx
+
+# Outros
+*.db
+*.bak
